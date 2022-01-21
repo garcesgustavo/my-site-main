@@ -1,15 +1,16 @@
 body {
+  background-color: #e5f6f5;
   margin: 0;
   text-align: center;
   font-size: 1rem;
 }
 
 h1 {
-  color: #66bfbf;
+  color: #1e5d5d;
   font-size: 6rem;
   font-family: 'Sacramento', serif;
   line-height: 2;
-  margin: 50px 0 10px 0;
+  margin: 50px auto 0 auto;
 }
 
 p {
@@ -18,21 +19,39 @@ p {
 }
 
 h2 {
-  color: #66bfbf;
+  color: #058282;
   font-family: 'Cambo', serif;
   font-weight: normal;
   font-size: 2.5rem;
-  margin: 10px 0 10px 0;
+  padding-bottom: 10px;
 }
 
 h3 {
-  color: #11999e;
+  color: #058282;
   font-family: 'Cambo', serif;
+}
+
+hr {
+  border-color: #058282;
+  border-style: dotted none none;
+  border-width: 5px;
+  width: 4%;
+  margin: 100px auto;
 }
 
 .profile img {
   width: 200px;
   height: 200px;
+}
+
+.middle-container {
+  margin: 4rem 0;
+}
+
+.intro {
+  width: 30%;
+  margin: 0 auto 2rem auto;
+  line-height: 2;
 }
 
 .skills-one {
@@ -55,7 +74,7 @@ h3 {
 }
 
 .top-container {
-  background-color: #E4f9f5;
+  background: linear-gradient(to bottom, #24b2f9, #7cc8f9);
   position: relative;
   padding-top: 100px;
 }
@@ -63,15 +82,56 @@ h3 {
 .top-cloud {
   position: absolute;
   right: 300px;
-  top: 50px;
+  top: 20px;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Cambo', serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 11px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
 }
 
 .bottom-cloud {
   position: absolute;
-  left: 300px;
+  left: 200px;
   bottom: 300px;
 }
 
-a {
-  color: #11999e;
+.bottom-container {
+  background-color: #28f59f;
+  padding: 1.5rem 0 1.2rem;
+}
+
+.footer-link{
+  color: #006b3b;
+  font-family: 'Cambo', serif;
+  margin: 0 20px;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: #11d67e;
+}
+
+.contact-me p {
+  width: 40%;
+  margin: 40px auto 60px;
+  padding-bottom: 20px;
+}
+
+.copyright {
+  color: #fcffff;
 }
